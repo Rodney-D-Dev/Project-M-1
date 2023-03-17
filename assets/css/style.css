@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Revalia&family=Roboto:ital,wght@1,300&display=swap');
 
 * {
+    
     margin: 0;
     padding: 0;
     border: none;
 }
 
 body {
+
     font-family: roboto, sans-serif;
     font-weight: 300;
     color: rgb(255, 255, 255);
@@ -14,7 +16,9 @@ body {
 }
 
 /* heading and logo */
-h1, h2 {
+h1,
+h2 {
+
     font-family: revalia, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -22,78 +26,89 @@ h1, h2 {
 }
 
 #logo {
+
     float: left;
-    font-size: 250%;
-    
+    font-size: 210%;
+
 }
 
 /* navigation menu */
 
 #menu {
+
     font-size: 120%;
     letter-spacing: 2px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
+
     line-height: 60px;
 }
 
 #menu li {
+
     list-style-type: none;
     margin-right: 10px;
 }
 
 #menu ul {
+
     float: right;
     display: flex;
     flex-direction: row;
 }
 
 #menu a {
+
     text-decoration: none;
     color: inherit;
 }
 
 #menu a:hover {
+
     border-bottom: 1px solid #3a3a3a;
 }
 
 .active {
+
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* background */
+/* background welcome section */
 
 #background-outer {
+
     height: 600px;
     width: 100%;
     overflow: hidden;
 }
 
 #Main-background {
+
     height: 900px;
     width: 100%;
     background: url('../images/gurdians\(1080p\).jpg') center center;
-  
-   
+
+
 }
+
 
 
 #welcome-message {
 
     text-align: center;
     margin: auto;
-    width: 800px;
-    
+    width: 500px;
     background-color: #040d20e7;
-
     bottom: 700px;
-    
     position: relative;
+    border: 2px solid rgba(10, 9, 9, 0.801);
+    box-sizing: border-box;
 
 }
 
-#welcome-message h2{
+#welcome-message h2 {
     text-transform: capitalize;
     background-color: black;
 
@@ -101,16 +116,29 @@ h1, h2 {
     padding-bottom: 4px;
 }
 
-#welcome-message h2, p {
+#welcome-message h2,
+p {
 
     padding-left: 10%;
     padding-right: 10%;
 
 }
 
+/* about section */
+
 #about-us {
-    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+#about-us div {
+    color: aqua;
+    background-color: #383535;
+    width: 50%;
+    float: left;
     text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
 }
 
 #play-times {
