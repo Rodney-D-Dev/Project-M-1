@@ -38,12 +38,15 @@ h2 {
 
     font-size: 120%;
     letter-spacing: 2px;
+  
 }
 
 #menu,
 #logo {
 
     line-height: 60px;
+   
+    
 }
 
 #menu li {
@@ -75,6 +78,7 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+
 /* background welcome section */
 
 #background-outer {
@@ -98,7 +102,7 @@ h2 {
 #welcome-message {
 
     text-align: center;
-    margin: auto;
+    margin: 0 auto;
     width: 500px;
     background-color: #040d20e7;
     bottom: 700px;
