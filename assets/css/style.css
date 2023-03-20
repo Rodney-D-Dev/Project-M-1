@@ -1,34 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Revalia&family=Roboto:ital,wght@1,300&display=swap');
 
 * {
-    
     margin: 0;
     padding: 0;
     border: none;
 }
 
 body {
-
     font-family: roboto, sans-serif;
-    font-weight: 300;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    font-weight: 500;
+    color: #cccccc;
+    background-color: #333333;
+    position: relative;
 }
 
 /* heading and logo */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+
+}
+
 h1,
 h2 {
-
     font-family: revalia, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    color: rgb(255, 255, 255);
+    letter-spacing: 1.5px;
+    color: #cccccc;
 }
 
 #logo {
 
     float: left;
     font-size: 210%;
+    display: inline;
 
 }
 
@@ -36,7 +44,7 @@ h2 {
 
 #menu {
 
-    font-size: 120%;
+    font-size: 100%;
     letter-spacing: 2px;
   
 }
@@ -70,16 +78,16 @@ h2 {
 
 #menu a:hover {
 
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #9999cc;
 }
 
 .active {
 
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #9999cc;
 }
 
 
-/* background welcome section */
+/* background and welcome section */
 
 #background-outer {
 
@@ -104,7 +112,7 @@ h2 {
     text-align: center;
     margin: 0 auto;
     width: 500px;
-    background-color: #040d20e7;
+    background-color: #333333;
     bottom: 700px;
     position: relative;
     border: 2px solid rgba(10, 9, 9, 0.801);
@@ -114,7 +122,7 @@ h2 {
 
 #welcome-message h2 {
     text-transform: capitalize;
-    background-color: black;
+    background-color: #333333;
 
     padding-top: 4px;
     padding-bottom: 4px;
@@ -136,8 +144,8 @@ p {
 }
 
 #about-us div {
-    color: aqua;
-    background-color: #383535;
+    color: #999999;
+    background-color: #333333;
     width: 50%;
     float: left;
     text-align: center;
@@ -149,10 +157,10 @@ p {
 
     margin: auto;
     text-align: center;
-    background-color: rgb(8, 122, 228);
+    background-color: #999999;
 }
-
-#form-container {
+/* form */
+.form-container {
     text-align: center;
 }
 
@@ -173,6 +181,6 @@ footer {
     font-size: 200%;
     margin: 1%;
     padding: 5%;
-    color: white;
+    color: #9999cc;
 }
 
