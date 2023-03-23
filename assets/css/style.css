@@ -21,6 +21,7 @@ header {
     top: 0;
     width: 100%;
     background-color: #333333;
+    
 
 }
 
@@ -35,7 +36,7 @@ h2 {
 #logo {
 
     float: left;
-    font-size: 210%;
+    font-size: 200%;
     display: inline;
 
 }
@@ -91,7 +92,7 @@ h2 {
 
 #welcome-page {
     background: url('../images/gurdians\(1080p\).jpg') center center no-repeat;
-    min-height: 110vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,12 +108,12 @@ h2 {
     border: 3px solid rgb(10, 9, 9);
     box-sizing: border-box;
     border-radius: 15%;
-
+    overflow: hidden;
 }
 
 #welcome-message h2 {
 
-    font-size: 50px;
+    font-size: 30px;
     text-transform: capitalize;
     background-color: #33333349;
     padding-top: 5px;
@@ -131,7 +132,8 @@ h2 {
 
 #about-us {
     width: 100%;
-   
+    min-height: 50vh;
+    overflow: hidden;
     
 }
 
@@ -140,14 +142,15 @@ h2 {
     width: 90%;
     display: block;
     margin: 0 auto;
-    padding: 50px 0px;
+
+    
 }
 
 .about-us-container .about-us-title {
 
     width: 100%;
     text-align: center;
-    margin-bottom:50px ;
+    margin-bottom:30px ;
 
 }
 
@@ -155,28 +158,39 @@ h2 {
 
     text-transform: uppercase;
     font-size: 40px;
-
-}
-
-.right-about-img {
-    float: right;
-    width: 50%;
-}
-
-.right-about-img img {
-    width: 100%;
-    height: auto;
+    
 }
 
 .left-about-img {
-    float: left;
-    width: 50%;
+    float: right;
+    width: 55%;
 }
+
 .left-about-img img {
     width: 100%;
     height: auto;
 }
 
+.right-about-us-content {
+    float: left;
+    width: 45%;
+
+}
+
+.right-about-img {
+    float: left;
+    width: 55%;
+}
+.right-about-img img {
+    width: 100%;
+    height: auto;
+}
+
+.left-about-us-content {
+    float: right;
+    width: 45%;
+
+}
 
 #gaming-times {
 
@@ -189,12 +203,14 @@ h2 {
 #gaming-times h2 {
     font-family: hind madurai;
     font-size: 20px;
+    
 
 }
 /* form */
 .form-container {
     text-align: center;
     height: 20vh;
+    
 }
 
 /* footer */
@@ -215,5 +231,43 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #9999cc;
+}
+
+@media screen and (max-width:800px) {
+
+    #menu {
+        width: 50%;
+        letter-spacing: 1px;
+        margin: 0 auto;
+        bottom: 0 auto;
+    }
+
+    #logo {
+        font-size: 120%;
+    }
+    #menu , #logo{
+        line-height: 30px;
+    }
+
+    #welcome-message {
+    
+        margin: 0;
+        border-radius: 1%;
+   
+    }
+
+    .left-about-img { 
+        width: 50%;
+    }
+    
+    .left-about-us-content {
+        float: left;
+        width: 50%;
+    }
+
+    .right-about-img {
+        float: right;
+        width: 50%;
+    }
 }
 
