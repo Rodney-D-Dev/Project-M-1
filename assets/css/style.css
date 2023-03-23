@@ -54,7 +54,6 @@ h2 {
 
     line-height: 60px;
    
-    
 }
 
 #menu li {
@@ -71,7 +70,8 @@ h2 {
 }
 
 #menu a {
-
+    
+    font-family: hind madurai;
     text-decoration: none;
     color: inherit;
 }
@@ -89,7 +89,7 @@ h2 {
 
 /* background and welcome section */
 
-#background {
+#welcome-page {
     background: url('../images/gurdians\(1080p\).jpg') center center no-repeat;
     min-height: 110vh;
     display: flex;
@@ -102,25 +102,28 @@ h2 {
 #welcome-message {
     
     text-align: center;
-    margin: 0 auto;
+    margin: 0 50px;
     background-color: #333333;
-    border: 3px solid rgba(10, 9, 9, 0.5);
+    border: 3px solid rgb(10, 9, 9);
     box-sizing: border-box;
+    border-radius: 15%;
 
 }
 
 #welcome-message h2 {
+
+    font-size: 50px;
     text-transform: capitalize;
-    background-color: #333333;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    background-color: #33333349;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-#welcome-message h2,
-p {
+#welcome-message p {
 
-    padding-left: 10%;
-    padding-right: 10%;
+    font-size: 20px;
+    font-family: hind madurai;
+    color: #cccccc;
 
 }
 
@@ -128,33 +131,75 @@ p {
 
 #about-us {
     width: 100%;
-    overflow: hidden;
+   
+    
 }
 
-#about-us div {
-    color: #999999;
-    background-color: #333333;
-    width: 50%;
-    float: left;
+#about-us .about-us-container {
+
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.about-us-container .about-us-title {
+
+    width: 100%;
     text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
+    margin-bottom:50px ;
+
 }
 
-#play-times {
+.about-us-container .about-us-title h1 {
+
+    text-transform: uppercase;
+    font-size: 40px;
+
+}
+
+.right-about-img {
+    float: right;
+    width: 50%;
+}
+
+.right-about-img img {
+    width: 100%;
+    height: auto;
+}
+
+.left-about-img {
+    float: left;
+    width: 50%;
+}
+.left-about-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+#gaming-times {
 
     margin: auto;
     text-align: center;
-    background-color: #999999;
+    color: #cccccc;
+    background-color: #2b2b46;
+}
+
+#gaming-times h2 {
+    font-family: hind madurai;
+    font-size: 20px;
+
 }
 /* form */
 .form-container {
     text-align: center;
+    height: 20vh;
 }
 
 /* footer */
 footer {
-    height: 150px;
+    height: 100px;
 }
 
 .social-networks {
