@@ -72,7 +72,7 @@ h2 {
 
 #menu a {
     
-    font-family: hind madurai;
+    font-family: 'hind madurai';
     text-decoration: none;
     color: inherit;
 }
@@ -106,18 +106,18 @@ h2 {
     margin: 0 50px;
     padding-bottom: 40px;
     background-color: #333333;
-    border: 1px solid rgb(10, 9, 9);
+    border: 1px solid #0000;
     box-sizing: border-box;
     border-radius: 5%;
     overflow: hidden;
 }
 
 #welcome-message h2 {
-    color: orange;
+    color: #e79243;
     font-size: 30px;
     text-transform: capitalize;
     text-decoration: underline;
-    background-color: #33333349;
+    background-color: #333333;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -126,7 +126,7 @@ h2 {
 
     font-size: 20px;
     min-height: 100px;
-    font-family: hind madurai;
+    font-family: 'hind madurai';
     color: #cccccc;
 
 }
@@ -159,7 +159,7 @@ h2 {
 }
 
 .about-us-container .about-us-title h1 {
-    color: purple;
+    color: #b1e1f2;
     text-transform: uppercase;
     text-decoration: underline;
     font-size: 40px;
@@ -214,7 +214,7 @@ h2 {
 }
 
 #gaming-times h2 {
-    font-family: hind madurai;
+    font-family: 'hind madurai';
     font-size: 20px;
     
 
@@ -236,15 +236,15 @@ button {
     margin: 10px;
     padding: 5px;
     cursor: pointer;
-    background-color: white;
+    background-color: #cccccc;
     box-shadow: 0 3px #9999cc;
 
 }
 .Join-button:hover {
-    background-color:#ababf0;
+    background-color:#2b2b46;
 }
 .Join-button:active{
-    background-color: orange;
+    background-color: #e79243;
     border: none;
 
 }
@@ -275,7 +275,7 @@ footer {
         width: 40%;
         letter-spacing: 1px;
         margin: 0 auto;
-        bottom: 0 auto;
+        
     }
 
     #logo {
