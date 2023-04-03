@@ -278,10 +278,10 @@ footer {
     color: #9999cc;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:400px) {
 
     #menu {
-        width: 50%;
+        width: 40%;
         letter-spacing: 1px;
         margin: 0 auto;
         
