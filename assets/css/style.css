@@ -314,6 +314,18 @@ footer {
         width: 50%;
     }
 
+    #gaming-times h1 {
+        
+        font-size: 25px;
+    }
+
+    #gaming-times h2 {
+        
+        font-size: 15px;
+        
+    
+    }
+
     #form-section {
         
         min-height: 100px;
