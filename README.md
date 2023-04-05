@@ -54,6 +54,13 @@ Live website [here](https://rodney-d-dev.github.io/Project-M-1/)
 
 # Deployment
 
+* The website was deployed to GitHub pages.
+1. In the GitHub repository, navigate to the Settings tab
+2. In the General sub menu selected Pages.
+3. From the source section drop-down menu, select Deploy from a brach.
+4. In branch section select main and save, Link for page shows at the top of GitHub Pages. 
+
+Live Website Link [GameNights](https://rodney-d-dev.github.io/Project-M-1/)
 
 # Credits
 
