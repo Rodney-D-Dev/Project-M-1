@@ -32,7 +32,7 @@ Live website [here](https://rodney-d-dev.github.io/Project-M-1/)
 * Access and view the website easily
 
 # Features
-* Navigation 
+* Navigation [Nav Menu](/documentation/images/Nav%20Menu.png)
 * Welcome page
 * About US
 * Form 
@@ -66,5 +66,6 @@ Live Website Link [GameNights](https://rodney-d-dev.github.io/Project-M-1/)
 
 ## Content
 * The code for the footer was taken from CI [LoveRunning](https://github.com/Rodney-D-Dev/Love-Running) walkthough Project.
+* Jquery script from stack [stackoverflow](https://stackoverflow.com)
 ## Media
 * The images where taken from [Pexels](https://www.pexels.com/) and [WallpaleFlare](https://www.wallpaperflare.com/)
