@@ -14,13 +14,13 @@
 <body>
     <header>
         <!--Navigation Menu-->
-        <nav id="menu">
+        <nav class="menu">
             <a href="index.html">
                 <h1 id="logo">Game Nights</h1>
             </a>
             <ul>
                 <li>
-                    <a href="#welcome-page">Home</a>
+                    <a href="#welcome-page" class="active">Home</a>
                 </li>
                 <li>
                     <a href="#about-us">About</a>
@@ -138,7 +138,17 @@
         </ul>
     </footer>
     <!-- font awsome script -->
-    <script src="https://kit.fontawesome.com/20a36d758e.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20a36d758e.js" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
+    <script>
+        $(document).ready(function() { 
+            $('.menu li ').click(function(e){
+                $('.menu li a.active').removeClass('active');
+                $('a', this).addClass('active');
+            });
+        });
+    </script>
 
 </body>
 

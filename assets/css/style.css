@@ -43,46 +43,46 @@ h2 {
 
 /* navigation menu */
 
-#menu {
+.menu {
 
     font-size: 100%;
     letter-spacing: 2px;
   
 }
 
-#menu,
+.menu,
 #logo {
 
     line-height: 60px;
    
 }
 
-#menu li {
+.menu li {
 
     list-style-type: none;
     margin-right: 10px;
 }
 
-#menu ul {
+.menu ul {
 
     float: right;
     display: flex;
     flex-direction: row;
 }
 
-#menu a {
+.menu a {
     
     font-family: 'hind madurai';
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+.menu a:hover {
 
     border-bottom: 1px solid #9999cc;
 }
 
-.active {
+.menu a.active {
 
     border-bottom: 1px solid #9999cc;
 }
@@ -280,7 +280,7 @@ footer {
 
 @media screen and (max-width:400px) {
 
-    #menu {
+   .menu {
         width: 40%;
         letter-spacing: 1px;
         margin: 0 auto;
@@ -290,7 +290,7 @@ footer {
     #logo {
         font-size: 90%;
     }
-    #menu , #logo{
+   .menu , #logo{
         line-height: 20px;
     }
 
