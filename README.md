@@ -32,11 +32,16 @@ Live website [here](https://rodney-d-dev.github.io/Project-M-1/)
 * Access and view the website easily
 
 # Features
-* Navigation ![Nav Menu](/documentation/images/NavMenu.png)
+* Navigation 
+![Nav Menu](/documentation/images/NavMenu.png)
 * Welcome page
+![Welcome page](/documentation/images/Welcomepage.png)
 * About US
+![About section](/documentation/images/aboutus.png)
 * Form 
+![Form](/documentation/images/form.png)
 * Footer
+![Footer](/documentation/images/footer.png)
 
 # Testing
 * I tested website works in diffent Browsers: Chrome, Firefox and Microsoft Edge.
