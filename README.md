@@ -32,7 +32,7 @@ Live website [here](https://rodney-d-dev.github.io/Project-M-1/)
 * Access and view the website easily
 
 # Features
-* Navigation [Nav Menu](/documentation/images/Nav%20Menu.png)
+* Navigation ![Nav Menu](/documentation/images/NavMenu.png)
 * Welcome page
 * About US
 * Form 
